@@ -1,4 +1,4 @@
-package com.mello.unitTest.mapper.mocks;
+package com.mello.unitTest.mocks;
 
 import java.util.ArrayList;
 import java.util.List;

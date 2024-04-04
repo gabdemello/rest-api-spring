@@ -1,11 +1,11 @@
-package com.mello.unitTest.mapper;
+package com.mello.unitTest;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import com.mello.data.vo.v1.PersonVO;
 import com.mello.mapper.DozerMapper;
 import com.mello.models.PersonModel;
-import com.mello.unitTest.mapper.mocks.MockPerson;
+import com.mello.unitTest.mocks.MockPerson;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
