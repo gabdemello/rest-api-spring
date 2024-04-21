@@ -52,7 +52,7 @@ public class PersonController {
         return personServices.findAll();
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    //@CrossOrigin(origins = "http://localhost:8080")
     @GetMapping(value = "/{id}", produces = {MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML})
     @Operation(summary = "Find a Person", description = "Find a Person",
             tags = "People",
@@ -70,7 +70,7 @@ public class PersonController {
         return personServices.findById(id);
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    //@CrossOrigin(origins = "http://localhost:8080")
     @PostMapping(
             produces = {MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML},
             consumes = {MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML})
